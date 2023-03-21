@@ -9,16 +9,18 @@ function App() {
   return (
     <div className="App">
       <h1>Login</h1>
-      <div>
+      <form>
         <div>
-          <label htmlFor="email">E-Mail: </label>
-          <input type="email" id="email" />
+          <div>
+            <label htmlFor="email">E-Mail: </label>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label htmlFor="password">Password: </label>
+            <input type="password" id="password" />
+          </div>
         </div>
-        <div>
-          <label htmlFor="password">Password: </label>
-          <input type="password" id="password" />
-        </div>
-      </div>
+      </form>
     </div>
   );
 }
